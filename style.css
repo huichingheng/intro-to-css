@@ -1,0 +1,54 @@
+body {
+    background: lightgrey;
+    text-align: justify;
+    margin: 50px 50px;
+}
+
+nav {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+h1 {
+    background: grey;
+    border-radius: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main {
+    display: grid;
+    grid-gap: 30px;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+article {
+    background: white;
+    line-height: 1.5; 
+    color: grey;
+    padding: 20px;
+}
+
+.content {
+    color: grey;
+    border-top: 1px solid lightgrey;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+}
+
+footer {
+    color: grey;
+    font-style: italic;
+    text-align: center;
+}
+
